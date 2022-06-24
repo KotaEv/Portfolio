@@ -1,19 +1,20 @@
 .main-background {
-  background-image: url(software-engineer.jpg);
+  background-color: #133e3e;
   background-style: cover;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 h1 {
   text-align: left;
-  color: #e8e887;
+  color: #ffffff;
   font-family: papyrus;
 }
 
 nav {
   text-align: right;
   margin-top: -60px;
-}
+} /* navigation is the links with pictures */
 
 img {
   height: 25px;
@@ -25,56 +26,75 @@ img {
   width: 28px;
 }
 
+.img-self{
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+h2{
+  text-align: left;
+  color: #ffffff;
+  font-family: papyrus;
+  margin: 20px auto auto auto;
+}
 .article{
   font-family: 'comic sans ms';
-  color: #e8e887;
+  color: #ffffff;
 }
 
 h3 {
-  text-align: left;
+  text-align: center;
   text-spacing: 3px;
-  margin-top: 75px;
-  margin-left: 250px;
+  
 }
 
 .h3-about {
-  text-align: right;
+  text-align: center;
   text-spacing: 3px;
-  margin-right: 350px;
 }
 
 .about {
-  margin: auto auto auto 1250px;
-  color: #e8e887;
+  margin: auto auto auto auto;
+  color: #ffffff;
   padding: none;
 }
 
 .p-intro {
-  text-align: left;
-  margin-left: 250px;
+  text-align: center;
+}
+hr{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100px;
 }
 .p-about {
-  text-align: left;
-}
-
-.h4-center {
   text-align: center;
-  color: #e8e877;
 }
 
-ul 
-{
-  display: table;
-  text-align: left;
-  margin-left: 250px;
+.para {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
 }
-ul li {
- list-text-position: inside;
+
+
+ul {
+  display: table;
+  margin: auto auto 5px auto;
+  text-align: center;
+} /* need to center...had to google how...*/
+
+ul li{
+  list-text-position: inside;
 }
 
 .footer-main {
-  text-align: left;
-  margin-left: 250px;
+  text-align: center;
+  text-color: white;
 }
 
 ol {
@@ -86,9 +106,15 @@ ol li {
   list-text-position: inside;
 }
 
-.footer {
+footer {
   height: 50px;
-  margin-bottom: 25px;
-  background: color; #35545f;
-}
+  margin-bottom: auto;
+  text-color: white;
+} /* footer won't change text color????*/
+
+
+  a:link {color: #ececac;}
+  a:visited {color: #6aa06a;}
+  a:hover {color: #c7bb75;}
+  a:active {color: white;}
 
